@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Born Date</string>
+    <string name="textfield">Birth year</string>
+    <string name="label_in_born_year">Enter your birth year:</string>
+    <string name="label_out_age">Your age is:</string>
+    <string name="label_out_incorrect_age">Invalid year</string>
+    <string name="label_out_null_age">"?"</string>
+</resources>
