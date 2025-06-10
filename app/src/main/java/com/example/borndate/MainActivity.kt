@@ -1,5 +1,6 @@
 package com.example.borndate
 
+import android.content.pm.ActivityInfo
 import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -52,6 +53,7 @@ class MainActivity : ComponentActivity() {
                 BornDateUI()
             }
         }
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
     }
 }
 @RequiresApi(Build.VERSION_CODES.O)
